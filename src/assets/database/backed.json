@@ -1,0 +1,89 @@
+{
+  "__collections__": {
+    "modules": {
+
+      "1" : {
+            "title":"First Module",
+            "image":"assets/img/module1.png",
+            "category":"High School",
+            "price":"200",
+            "id":"1",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "2" : {
+            "title":"Biology Module",
+            "image":"assets/img/module2.png",
+            "category":"High School",
+            "price":"200",
+            "id":"2",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "3" : {
+            "title":"History Module",
+            "image":"assets/img/module3.png",
+            "category":"High School",
+            "price":"100",
+            "id":"3",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "4" : {
+            "title":"Chemistry Module",
+            "image":"assets/img/module4.png",
+            "category":"High School",
+            "price":"100",
+            "id":"4",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "5" : {
+            "title":"Hard Module",
+            "image":"assets/img/module5.png",
+            "category":"High School",
+            "price":"100",
+            "id":"5",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "6" : {
+            "title":"Chemistry Module",
+            "image":"assets/img/module6.png",
+            "category":"High School",
+            "price":"230",
+            "id":"6",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "7" : {
+            "title":"Chemistry Module",
+            "image":"assets/img/module7.png",
+            "category":"High School",
+            "price":"180",
+            "id":"7",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "8" : {
+            "title":"People In High School",
+            "image":"assets/img/module8.png",
+            "category":"High School",
+            "price":"150",
+            "id":"8",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      },
+      "9" : {
+            "title":"Sink Module",
+            "image":"assets/img/module9.png",
+            "category":"High School",
+            "price":"90",
+            "id":"9",
+            "author":"lgVnT2ta9ORTu8h4vweWBRYHSyQ2",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint"
+      }
+
+    }
+  }
+}

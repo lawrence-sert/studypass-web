@@ -1,0 +1,349 @@
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+
+            <!-- Profile Image -->
+            <div class="card card-primary card-outline">
+              <div class="card-body box-profile">
+                <div class="text-center">
+                  <img class="profile-user-img img-fluid img-circle"
+                  src="assets/img/default-user.png"
+                  alt="User profile picture">
+                </div>
+
+                <h3 class="profile-username text-center">Ryan</h3>
+
+                <p class="text-muted text-center">Tutor</p>
+
+                <ul class="list-group list-group-unbordered mb-3">
+                  <li class="list-group-item">
+                    <b>Documents For You</b> <a class="float-right">2</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Courses For You</b> <a class="float-right">3</a>
+                  </li>
+                  <li class="list-group-item">
+                    <b>Followers</b> <a class="float-right">287</a>
+                  </li>
+                </ul>
+
+                <a class="btn btn-primary btn-block" data-toggle="modal" data-target="#modal-xl"><b>Upload Document</b></a>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+
+            <!-- About Me Box -->
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h3 class="card-title">About Me</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <strong><i class="fas fa-book mr-1"></i> Education</strong>
+
+                <p class="text-muted">
+                  B.S. in Computer Science from the University of Cape Town
+                </p>
+
+                <hr>
+
+                <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
+
+                <p class="text-muted">Cape Town, South Africa</p>
+
+                <hr>
+
+                <strong><i class="far fa-file-alt mr-1"></i> Notes</strong>
+
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-9">
+            <div class="card card-primary card-outline">
+              <div class="card-header p-2">
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a class="nav-link active" href="#activity" data-toggle="tab">
+                    <i class="ti-save-alt g-font-size-18--xs"></i> Uploads
+                  </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#upload" data-toggle="tab">
+                    <i class="ti-star g-font-size-18--xs"></i> Activity
+                  </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#wallet" data-toggle="tab">
+                    <i class="ti-wallet g-font-size-18--xs"></i> Wallet
+                  </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#messages" data-toggle="tab">
+                    <i class="ti-comments g-font-size-18--xs"></i> Messages
+                  </a></li>
+                  <li class="nav-item"><a class="nav-link" href="#settings" data-toggle="tab">
+                    <i class="ti-settings g-font-size-18--xs"></i> Settings
+                  </a></li>
+                </ul>
+              </div><!-- /.card-header -->
+              <div class="card-body">
+                <div class="tab-content">
+                  <div class="active tab-pane" id="activity">
+                    <h4 class="float-right"><i class="ti-save-alt g-font-size-18--xs"></i> Your Uploads</h4>
+
+                    <br>
+                    <br>
+
+                    <table id="example1" class="table table-bordered table-striped">
+                      <thead>
+                        <tr>
+                          <th style="width: 80%;">Title</th>
+                          <th>Price</th>
+                          <th>Download(s)</th>
+                          <th>Edit</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                        <tr *ngFor="let module of modules">
+                          <td>{{module.title}}</td>
+                          <td>R{{module.price}}</td>
+                          <td>{{module.downloads}}</td>
+                          <td> 
+                            <i class="ti-write g-font-size-18--xs g-text-center--xs"></i>
+                          </td>
+                        </tr>
+
+
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <th>Title</th>
+                          <th>Price</th>
+                          <th>Download(s)</th>
+                          <th>Edit</th>
+                        </tr>
+                      </tfoot>
+                    </table>
+
+                  </div>
+
+                  <!-- /.tab-pane -->
+                  <div class="tab-pane" id="upload">
+                    <h4 class="float-right"><i class="ti-star g-font-size-18--xs"></i> Activity</h4>
+
+                    <br>
+                    <br>
+
+                    <!-- The timeline -->
+                    <div class="timeline timeline-inverse">
+                      <!-- timeline time label -->
+                      <div class="time-label">
+                        <span class="bg-danger">
+                          10 October. 2021
+                        </span>
+                      </div>
+                      <!-- /.timeline-label -->
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-envelope bg-primary"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 12:05</span>
+
+                          <h3 class="timeline-header"><a href="#">Support Team</a> sent you an email</h3>
+
+                          <div class="timeline-body">
+                            Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
+                            weebly ning heekya handango imeem plugg dopplr jibjab, movity
+                            jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
+                            quora plaxo ideeli hulu weebly balihoo...
+                          </div>
+                          <div class="timeline-footer">
+                            <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                            <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- END timeline item -->
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-user bg-info"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 5 mins ago</span>
+
+                          <h3 class="timeline-header border-0"><a href="#">Sarah Young</a> accepted your friend request
+                          </h3>
+                        </div>
+                      </div>
+                      <!-- END timeline item -->
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-comments bg-warning"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 27 mins ago</span>
+
+                          <h3 class="timeline-header"><a href="#">Jay White</a> commented on your post</h3>
+
+                          <div class="timeline-body">
+                            Take me to your leader!
+                            Switzerland is small and neutral!
+                            We are more like Germany, ambitious and misunderstood!
+                          </div>
+                          <div class="timeline-footer">
+                            <a href="#" class="btn btn-warning btn-flat btn-sm">View comment</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- END timeline item -->
+                      <!-- timeline time label -->
+                      <div class="time-label">
+                        <span class="bg-success">
+                          3 September. 2021
+                        </span>
+                      </div>
+                      <!-- /.timeline-label -->
+                      <!-- timeline item -->
+                      <div>
+                        <i class="fas fa-camera bg-purple"></i>
+
+                        <div class="timeline-item">
+                          <span class="time"><i class="far fa-clock"></i> 2 days ago</span>
+
+                          <h3 class="timeline-header"><a href="#">Cash Withdrawal</a> R300</h3>
+                        </div>
+                      </div>
+                      <!-- END timeline item -->
+                      <div>
+                        <i class="far fa-clock bg-gray"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="wallet">
+
+                    <div class="row g-margin-b-20--xs">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h4 class="float-right"><i class="ti-wallet g-font-size-18--xs"></i> Your Wallet</h4>
+                      </div>
+                    </div>
+
+                    <div class="row g-margin-b-20--xs">
+                      <div class="col-md-4 col-sm-4 col-xs-4">
+                        <button type="button" class="btn btn-success btn-block btn-flat">Withdraw</button>
+                      </div>
+
+                      <div class="col-md-4 col-sm-4 col-xs-4">
+                      </div>
+
+                      <div class="col-md-4 col-sm-4 col-xs-4">
+                        <span class="float-right">
+                          <span class="s-plan-v1__price-mark">R</span>
+                          <span class="s-plan-v1__price-tag">5900</span>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <table id="example1" class="table table-bordered table-striped">
+                          <thead>
+                            <tr>
+                              <th style="width: 20%;">Date</th>
+                              <th>Amount</th>
+                              <th>Action</th>
+                              <th>View</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+
+                            <tr>
+                              <td>10 Oct 2021</td>
+                              <td>R200</td>
+                              <td>Withdraw</td>
+                              <td> 
+                                <i class="ti-eye g-font-size-18--xs g-text-center--xs"></i>
+                              </td>
+                            </tr>
+
+
+                          </tbody>
+                          <tfoot>
+                            <tr>
+                              <th style="width: 20%;">Date</th>
+                              <th>Amount</th>
+                              <th>Action</th>
+                              <th>View</th>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="messages">
+                    <h4 class="float-right"><i class="ti-comments g-font-size-18--xs"></i> Messages</h4>
+                  </div>
+                  <!-- /.tab-pane -->
+
+                  <div class="tab-pane" id="settings">
+                    <h4 class="float-right"><i class="ti-settings g-font-size-18--xs"></i> Profile Settings</h4>
+                  </div>
+                  <!-- /.tab-pane -->
+
+                </div>
+                <!-- /.tab-content -->
+              </div><!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+
+
+    <div class="modal fade" id="modal-xl">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Upload New Document</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <div class="row">
+              <div class="col-md-4 col-sm-12 col-xs-12">
+
+              </div>
+              <div class="col-md-8 col-sm-12 col-xs-12">
+
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <button type="button" class="btn btn-default tn-block btn-flat" data-dismiss="modal">Close</button>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <button type="button" class="btn btn-success btn-block btn-flat">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+      <!-- /.modal -->

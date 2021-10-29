@@ -1,0 +1,361 @@
+@import "src/theme/fonts.scss";
+
+* {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color : #020202;
+  font-size : 12px;
+}
+
+.cap-me {
+	text-transform : capitalize;
+}
+
+.light {
+	font-weight: 300;
+}
+.heavy {
+	font-weight: 700;
+}
+
+//header
+.header-color {
+	--background: #DE323A;
+	color : #fff;
+}
+
+p {
+	color : #020202;
+}
+
+
+label {
+	color: #DE323A;
+}
+
+.icon-page {
+	line-height : 40px;
+}
+
+
+// Profile images
+.menu-profile-img {
+	border: 2px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 60px;
+}
+
+.menu-notification-img {
+	border: 1px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 40px;
+	height : 40px;
+}
+
+.chef-page-img {
+	border: 1px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 70px;
+	height : 70px;
+}
+
+.chef-profile-img {
+	border: 1px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 25px;
+	height : 25px;
+}
+
+
+
+.profile-logo-img {
+	border: 2px solid #fff;
+	margin: 0 auto;
+	padding: 3px;
+	width: 100px;
+}
+
+.profile-user-img-main {
+	border: 1px solid #fff;
+	margin: 0 auto;
+	padding: 3px;
+	width: 40px;
+	height : 40px;
+}
+
+.small-user-img {
+	border: 1px solid #fff;
+	margin: 0 auto;
+	padding: 3px;
+	width: 30px;
+}
+
+
+.medium-user-img {
+	border: 1px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 100px;
+}
+
+.comment-user-img {
+	border: 1px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 40px;
+}
+
+.upload-user-img {
+	border: 1px solid #DE323A;
+	margin: 0 auto;
+	padding: 3px;
+	width: 120px;
+}
+
+
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.icon-circle {
+	margin: 0 auto;
+	color : #fff;
+	padding: 1px;
+	width: 25px;
+	height: 25px;
+	line-height: 20px;
+	background-color: #DE323A;
+	border-radius: 50%;
+}
+
+
+.g-line-height--lg {
+	line-height: 1.6;
+}
+.g-padding-t-20--xs {
+	padding-top: 20px;
+}
+.g-padding-b-100-xs {
+	padding-bottom: 100px;
+}
+
+ion-segment-button {
+	text-transform: none;
+}
+
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search-button {
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+ion-segment {
+	margin: 0 10px;
+}
+
+ion-segment-button {
+	text-transform: capitalize;
+	transform: scale(.8,.8);
+	--indicator-color: transparent;
+	font-size: 16px;
+
+}
+
+.segment-button-checked {
+	color: #DE323A;
+}
+
+.segment-button-checked:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	border-bottom: 1px solid #DE323A;
+
+}
+
+.app-add-basket {
+	--height: 90%;
+	--border-radius: 10px;
+	padding: 25px;
+}
+
+.app-post-options {
+	--height: 50%;
+	--border-radius: 10px;
+	padding: 15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.app-buy-basket {
+	--height: 100%;
+	--border-radius: 10px 10px 0px 0px;
+	padding : 70px 10px 0px 10px;
+}
+
+.app-image-up {
+	--height: 100%;
+	--border-radius: 10px 10px 0px 0px;
+	padding : 70px 10px 0px 10px;
+}
+
+.app-faq {
+	--border-radius: 10px 10px 0px 0px;
+	padding : 70px 10px 0px 10px;
+}
+
+.app-tutorial {
+	--border-radius: 10px 10px 0px 0px;
+	padding : 70px 10px 0px 10px;
+}
+
+.app-add-points {
+	--height: 90%;
+	--border-radius: 10px;
+	padding: 25px;
+	position: absolute;
+	bottom: 2px;
+}
+
+.app-search {
+	--height: 100%;
+	--border-radius: 10px 10px 0px 0px;
+	padding : 10px 10px 0px 10px;
+}
+
+.my-green {
+	color : #2A8440;
+}
+
+.comment-main {
+	padding : 5px 15px 5px 15px;
+	border-radius : 20px;
+	background-color: #E4EAE4;
+}
+
+.message-send {
+	height : 40px;
+	background-color: #F1F0F0;
+	border-radius : 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 30px;
+	position: absolute;
+	bottom: 2px;
+	width : 95%;
+}
+
+.app-comment {
+	--height: 100%;
+	--border-radius: 10px 10px 0px 0px;
+	padding : 30px 10px 0px 10px;
+}
+
+.comment_img {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+//Add basket modal
+.alertHeader {
+	color: #b52024 !important;
+  // --color: #b52024 !important;
+}
+h2.alertHeader {
+	color: #b52024 !important;
+	font-size: 18px;
+ // --color: #b52024 !important;
+}
+
+//this works for alertHeader when inspecting in the browser
+.alert-sub-title.sc-ion-alert-md, .alert-title.sc-ion-alert-md {
+	color: #b32224;
+}
+
+.additional-info {
+	margin-top: 16px;
+	display: flex;
+	justify-content: space-between;
+
+	.attendees {
+		position: relative;
+
+		img {
+			width: 25px;
+			height: 25px;
+		}
+
+		img:nth-child(2) {
+			position: absolute;
+			left: 16px;
+			z-index: 1;
+		}
+
+		img:nth-child(3) {
+			position: absolute;
+			left: 30px;
+			z-index: 2;
+		}
+
+		img:nth-child(4) {
+			position: absolute;
+			left: 44px;
+			z-index: 3;
+		}
+
+		.count {
+			position: absolute;
+			left: 58px;
+			top: 0;
+			z-index: 4;
+			width: 25px;
+			height: 25px;
+
+			p {
+				color: white;
+				position: absolute;
+				top: 6px;
+				left: 6px;
+				z-index: 5;
+				font-size: 9px;
+				font-weight: bold;
+				margin: 0;
+			}
+		}
+	}
+
+	.time {
+		font-weight: bold;
+		color: #364F6B;
+	}
+}
+
+
+

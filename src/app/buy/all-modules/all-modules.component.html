@@ -1,0 +1,290 @@
+<!-- Plan -->
+<div class="g-bg-color--sky-light">
+	<div class="container g-padding-y-40--xs g-padding-y-55--xsm">
+		<div class="g-text-center--xs g-margin-b-30--xs">
+			<h2 class="g-font-size-32--xs g-font-size-36--md">Finding your Module</h2>
+		</div>
+
+		<div class="row">
+			<div class="row">
+
+				<div class="col-xs-3">
+					<!-- Profile Image -->
+					<div class="card card-primary card-outline">
+						<div class="card-body box-profile">
+							<h3 class="profile-username">Show Only</h3>
+
+							<div class="form-group clearfix">
+								<div class="icheck-primary d-inline">
+									<input type="checkbox" id="checkboxPrimary4">
+									<label for="checkboxPrimary4">
+										Documents
+									</label>
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<div class="icheck-primary d-inline">
+									<input type="checkbox" id="checkboxPrimary4">
+									<label for="checkboxPrimary4">
+										Flashcards
+									</label>
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<div class="icheck-primary d-inline">
+									<input type="checkbox" id="checkboxPrimary2">
+									<label for="checkboxPrimary2">
+										Bundles
+									</label>
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<div class="icheck-primary d-inline">
+									<input type="checkbox" id="checkboxPrimary3">
+									<label for="checkboxPrimary3">
+										Books
+									</label>
+								</div>
+							</div>
+
+							<hr>
+
+							<h4 class="profile-username">Filter by school or course</h4>
+
+							<div class="form-group">
+								<select class="form-control select2" style="width: 100%;">
+									<option selected="selected">Country</option>
+									<option>Alaska</option>
+									<option>California</option>
+									<option>Delaware</option>
+									<option>Tennessee</option>
+									<option>Texas</option>
+									<option>Washington</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<select class="form-control select2" style="width: 100%;">
+									<option selected="selected">Institution</option>
+									<option>Alaska</option>
+									<option>California</option>
+									<option>Delaware</option>
+									<option>Tennessee</option>
+									<option>Texas</option>
+									<option>Washington</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<select class="form-control select2" style="width: 100%;">
+									<option selected="selected">Study</option>
+									<option>Alaska</option>
+									<option>California</option>
+									<option>Delaware</option>
+									<option>Tennessee</option>
+									<option>Texas</option>
+									<option>Washington</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<select class="form-control select2" style="width: 100%;">
+									<option selected="selected">Course</option>
+									<option>Alaska</option>
+									<option>California</option>
+									<option>Delaware</option>
+									<option>Tennessee</option>
+									<option>Texas</option>
+									<option>Washington</option>
+								</select>
+							</div>
+
+
+
+						</div>
+						<!-- /.card-body -->
+					</div>
+					<!-- /.card -->
+				</div>
+
+
+				<div class="col-xs-9">
+					<!-- Plan -->
+					<div>
+						<div class="col-md-12 g-margin-b-10--xs g-margin-b-20--lg" *ngFor="let module of modules">
+							<div class="s-plan-v1 g-bg-color--white g-padding-b-10--xs">
+								<div class="row">
+									<div class="col-md-3">
+										<img src="{{module.image}}" class="img-responsive" alt=""
+										style="width: 100%;">
+									</div>
+									<div class="col-md-7 g-padding-y-10--xs">
+										<h3 class="g-font-size-18--xs g-color--primary">{{module.title}}</h3>
+										<p>{{module.description | slice:0:120}}</p>
+										<hr>
+
+										<div class="row">
+											<div class="col-xs-4">
+												<strong>Summary</strong> : 20 pages 
+											</div>
+											<div class="col-xs-4">
+												<strong>By</strong> : Name
+											</div>
+											<div class="col-xs-4">
+												<strong>Uploaded</strong> : 09-04-21
+											</div>
+										</div>
+
+									</div>
+									<div class="col-md-2">
+										<br>
+										<span class="g-text-center--xs g-padding-y-40--xs">
+											<i class="ti-star g-font-size-18--xs"></i>
+											<i class="ti-star g-font-size-18--xs"></i>
+											<i class="ti-star g-font-size-18--xs"></i>
+											<i class="ti-star g-font-size-18--xs"></i>
+											<i class="ti-star g-font-size-18--xs"></i>
+										</span>
+										(34)
+										<br>
+										<br>
+										<button type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--4 g-padding-x-20--xs" data-toggle="modal" data-target="#modal-xl">Download</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Plan -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Plan -->
+
+
+<div class="modal fade" id="modal-xl">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-8 col-sm-8 col-xs-8">
+						<img src="assets/img/module8.png" class="img-responsive" alt="">
+
+
+						<div class="row">
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="assets/img/module8.png" class="img-responsive img-thumbnail" alt="">
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="assets/img/module8.png" class="img-responsive img-thumbnail" alt="">
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="assets/img/module8.png" class="img-responsive img-thumbnail" alt="">
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<img src="assets/img/module8.png" class="img-responsive img-thumbnail" alt="">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<!-- google ads -->
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12"></div>
+						</div>
+
+						<!-- Actions -->
+						<div class="row g-margin-b-20--lg">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<button type="button" class="btn btn-outline-info btn-block btn-flat"><i class="fa fa-book"></i> Collect</button>
+							</div>
+
+							<div class="col-md-2 col-sm-2 col-xs-2">
+								<i class="ti-heart fa-border g-font-size-18--xs" aria-hidden="true"></i>
+							</div>
+
+							<div class="col-md-2 col-sm-2 col-xs-2">
+								<i class="ti-share fa-border g-font-size-18--xs" aria-hidden="true"></i>
+							</div>
+
+							<div class="col-md-2 col-sm-2 col-xs-2">
+								<i class="ti-comments fa-border g-font-size-18--xs" aria-hidden="true"></i>
+							</div>
+
+							
+						</div>
+
+						<!-- Download -->
+						<div class="row g-margin-b-30--xs">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<button type="button" class="btn btn-success btn-block btn-flat">Download</button>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="g-margin-b-10--xs g-text-center--xs">
+									<span class="s-plan-v1__price-mark">R</span>
+									<span class="s-plan-v1__price-tag">250</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- More information -->
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<ul class="list-group list-group-unbordered mb-3">
+									<li class="list-group-item">
+										<b>Pages</b> <a class="float-right">50</a>
+									</li>
+									<li class="list-group-item">
+										<b>Rating</b> <a class="float-right">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li class="list-group-item">
+										<b>Downloads</b> <a class="float-right">13,287</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-8">
+								<div class="user-panel mt-3 pb-3 mb-3 d-flex">
+									<div class="image">
+										<img src="assets/img/default-user.png" class="img-circle elevation-2" alt="user name">
+									</div>
+									<div class="info">
+										<a class="d-block">Lawrence Gumbo</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-4">
+								<button type="button" class="btn btn-block bg-gradient-warning">Follow</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->

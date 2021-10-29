@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "studypass-dba45",
+  "private_key_id": "af25a8166412a85b27a5b3e504826141051b5b67",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCkwwlRCAKUYBZ1\np9gWeldlDuKWAiE98SVqpMzJhWCnGthlDhEuGbM61lB4oQeIzFELefswaLfScKnd\nY55IUvMyNAkNb4kYgF4C4qFRFdic7//YBp+2UUxtSLBokAdv6euzFRPMWRH14Ynp\nRtyOBfyvsriNdy2tVeHlz8ZKKmZPDAtZijmwkY23FH+2NUKoV7NzuqhbrEp7Zc6S\nFw8/eKAdvSJt4ElrAYRAZ++hEQ+Ku/zOXNqndQwntggTcTHoX5n9J1AELzv9dzr9\nuWS2TMgveic6BtqoughmVXb02OELn+wWVwIqnDJ0trx7STZsb7w3U9bcyHJWc4GE\ne2dTCgebAgMBAAECggEABQobmZH8mvB7/2FGs0rDCTKjicTiLlGRXztP69w4s69o\nhTMhIZOqNQX1HOFC7kewHdKoDGZ2HUaYLmZC6PMKwIS3S58uo5XCSl+TG5OhHt6m\nNH3g1FhmbMTuxMETB7S83KsI6xTQiulQYxyX7yJTvv+my5/TNagNMD1i3ro6uiWj\nCIGU89HZrwpmtQ0bmnLDMmaHD9XONPz3yGAQqJ31QGzxWRwNwi1sAobYIbMWHH7i\nPv7Ay0H8mCpHFlkctkYp1AZJvh5h+Pf3KLq4/APVmawkVFUyrhELL17WQ4WhKf7G\nts7DkQ/ATHfdsnL0wUU/mdDPrr8d6nD5/y6dVEIxYQKBgQDZkrAf8ESzuAKKLCAe\noaswGxztj/kZHkx0PnDK5wM1sECNcX6cSa3+mRshmvbnV/9EboKBCWRf3cHUJNLo\nu3vnGw6ybB1rJfckjEtMDeF50w26cRLOj/6vbEc8W31uHRbW7eGhOkzn5PQPhNkY\nc9X++uqjgnFidzuDp8fXjgIgSQKBgQDB3I3Au42+vQuDUhmD70qGE7AkYH+vgls4\n53y15ZqJucM5BzVykCq5UxCmksaQ7VhQtnmelE5RUSI0RSglipwHZy2W+IhRnBCv\na5f/mixzzuJnwVngcbMVfj50/3Id7M02WJcpjuVxiwaYmt4wPU7WIZXwmwWLhzec\nUWtx3e/wwwKBgHl7t03OCX5Tw09FPhX8bSpqKSfYWN0WltfdOXuBq8Ahjpmrgmdf\nmIBtGsIT1cLs1oJuNf44sUv59U0v1nfOn2s2J2mmhnKaezl0AGMR6RDtsF+m3Tpr\nGmj2y3u/FfUS1vrhTjeI5wIgS8oSgmlt3FIH5lWv8wFo09k6KJKKH1PJAoGAKaMx\nXv/phdocquvrRwcSPpHj9ywywIODDEnL41WZR5N6drkxpZWJV5ybqutDcsVHfq5y\nmLjJyXVfn1JrOQT4Vi63AAIJZV3bx5GYZ/G5MnZw8k/4+dfx2t/ukjp7TCocOVv1\nu5tRdH2jwQsiRcIlOKCmD7N8EWfNbeme5ioA6vkCgYEAnUgHUatYMQWKGq2n8XOv\nAx7Yhn08/Pj6EohgCnqj1ZkGjte2GM5JIt74OtHZosTyCRbOMKjwiqnublHGWz7p\ndUp1b643RCWOksO2Q5tUo22cR29jv34rPJf+sOePQ9cGsidVeYJHGFA4HDHzsu0l\nV4flQfpFFjmdV71CoRhND6k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-2fenq@studypass-dba45.iam.gserviceaccount.com",
+  "client_id": "107196314935665975941",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2fenq%40studypass-dba45.iam.gserviceaccount.com"
+}
